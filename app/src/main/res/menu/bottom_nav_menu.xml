@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home_screen"
+        android:icon="@drawable/ic_home"
+        android:title="@string/lbl_home_screen"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_quiz_list_screen"
+        android:icon="@drawable/ic_list"
+        android:title="@string/lbl_quiz_list_screen"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_user"
+        android:title="@string/lbl_profile_screen"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/ic_about"
+        android:title="@string/lbl_about_screen"
+        app:showAsAction="ifRoom" />
+</menu>
